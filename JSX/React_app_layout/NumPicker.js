@@ -1,6 +1,9 @@
 function pickNum() {
 	return Math.floor(Math.random() * 10) + 1;
 }
+// class getName extends React.Component{
+
+// }
 class NumPicker extends React.Component {
 	render() {
 		const num = pickNum();
